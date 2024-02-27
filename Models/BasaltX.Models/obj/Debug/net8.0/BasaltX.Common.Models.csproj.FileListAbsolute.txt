@@ -1,0 +1,12 @@
+C:\BasaltX.Services\Models\BasaltX.Models\bin\Debug\net8.0\BasaltX.Common.Models.deps.json
+C:\BasaltX.Services\Models\BasaltX.Models\bin\Debug\net8.0\BasaltX.Common.Models.dll
+C:\BasaltX.Services\Models\BasaltX.Models\bin\Debug\net8.0\BasaltX.Common.Models.pdb
+C:\BasaltX.Services\Models\BasaltX.Models\obj\Debug\net8.0\BasaltX.Common.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\BasaltX.Services\Models\BasaltX.Models\obj\Debug\net8.0\BasaltX.Common.Models.AssemblyInfoInputs.cache
+C:\BasaltX.Services\Models\BasaltX.Models\obj\Debug\net8.0\BasaltX.Common.Models.AssemblyInfo.cs
+C:\BasaltX.Services\Models\BasaltX.Models\obj\Debug\net8.0\BasaltX.Common.Models.csproj.CoreCompileInputs.cache
+C:\BasaltX.Services\Models\BasaltX.Models\obj\Debug\net8.0\BasaltX.Common.Models.dll
+C:\BasaltX.Services\Models\BasaltX.Models\obj\Debug\net8.0\refint\BasaltX.Common.Models.dll
+C:\BasaltX.Services\Models\BasaltX.Models\obj\Debug\net8.0\BasaltX.Common.Models.pdb
+C:\BasaltX.Services\Models\BasaltX.Models\obj\Debug\net8.0\ref\BasaltX.Common.Models.dll
+C:\BasaltX.Services\Models\BasaltX.Models\obj\Debug\net8.0\BasaltX.Common.Models.csproj.AssemblyReference.cache

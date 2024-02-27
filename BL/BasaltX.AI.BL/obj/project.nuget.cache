@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "jydivcmeF9x4aiJuvFXsFFViEN4mwez0Aokh69r0obzskRpcNPAB/Gv3pGIYA2hhfSwmWAgaXZZxnhGGLYFMxw==",
+  "success": true,
+  "projectFilePath": "C:\\BasaltX.Services\\BL\\BasaltX.AI.BL\\BasaltX.AI.BL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\XolaniG\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\XolaniG\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\XolaniG\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\XolaniG\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\XolaniG\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\XolaniG\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\XolaniG\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\XolaniG\\.nuget\\packages\\system.text.json\\8.0.2\\system.text.json.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

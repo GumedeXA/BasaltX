@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BasaltX.Models/1.0.0": {
+        "runtime": {
+          "BasaltX.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BasaltX.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

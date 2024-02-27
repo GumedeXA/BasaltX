@@ -1,0 +1,1 @@
+--Import post collection of Postman Collection folder

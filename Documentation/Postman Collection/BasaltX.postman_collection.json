@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "2dba3cb3-4715-42fb-81b1-383f601ee7d0",
+		"name": "BasaltX",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5232185"
+	},
+	"item": [
+		{
+			"name": "Business Search API",
+			"item": [
+				{
+					"name": "find-business-info",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"payload\": {\r\n        \"location\": \"fishermans wharf\",\r\n        \"search_service_type\": \"plumbers\"\r\n    },\r\n    \"action\": 1,\r\n    \"service\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7135/api/gate-way",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7135",
+							"path": [
+								"api",
+								"gate-way"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

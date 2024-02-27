@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BasaltX.MoviesAPI.props" />
+</Project>

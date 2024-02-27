@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BasaltX.Movies.API.props" />
+</Project>

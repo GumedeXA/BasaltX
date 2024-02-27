@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BasaltX.AI.Api.props" />
+</Project>
