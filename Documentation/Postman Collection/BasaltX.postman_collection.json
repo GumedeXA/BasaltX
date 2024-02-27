@@ -13,7 +13,13 @@
 					"name": "find-business-info",
 					"request": {
 						"method": "POST",
-						"header": [],
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "2b7aa745-2ba4-4940-8931-ffcbe6796924",
+								"type": "text"
+							}
+						],
 						"body": {
 							"mode": "raw",
 							"raw": "{\r\n    \"payload\": {\r\n        \"location\": \"fishermans wharf\",\r\n        \"search_service_type\": \"plumbers\"\r\n    },\r\n    \"action\": 1,\r\n    \"service\": 1\r\n}",
