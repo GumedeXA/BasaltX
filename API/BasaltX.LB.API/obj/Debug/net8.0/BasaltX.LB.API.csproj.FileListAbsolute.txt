@@ -82,3 +82,4 @@ C:\BasaltX.Services\API\BasaltX.LB.API\obj\Debug\net8.0\scopedcss\bundle\BasaltX
 C:\BasaltX.Services\API\BasaltX.LB.API\obj\Debug\net8.0\BasaltX.LB.API.csproj.CopyComplete
 C:\BasaltX.Services\API\BasaltX.LB.API\obj\Debug\net8.0\BasaltX.LB.API.genruntimeconfig.cache
 C:\BasaltX.Services\API\BasaltX.LB.API\obj\Debug\net8.0\ref\BasaltX.LB.API.dll
+C:\BasaltX.Services\API\BasaltX.LB.API\obj\Debug\net8.0\BasaltX.LB.API.sourcelink.json

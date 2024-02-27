@@ -28,3 +28,4 @@ C:\BasaltX.Services\Utils\BasalX.Utils\obj\Debug\net8.0\BasaltX.Utils.pdb
 C:\BasaltX.Services\Utils\BasalX.Utils\obj\Debug\net8.0\ref\BasaltX.Utils.dll
 C:\BasaltX.Services\Utils\BasalX.Utils\bin\Debug\net8.0\BasaltX.Common.Models.dll
 C:\BasaltX.Services\Utils\BasalX.Utils\bin\Debug\net8.0\BasaltX.Common.Models.pdb
+C:\BasaltX.Services\Utils\BasalX.Utils\obj\Debug\net8.0\BasaltX.Utils.sourcelink.json

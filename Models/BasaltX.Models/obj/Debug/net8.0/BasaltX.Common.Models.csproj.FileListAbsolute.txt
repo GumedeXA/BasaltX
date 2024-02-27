@@ -10,3 +10,4 @@ C:\BasaltX.Services\Models\BasaltX.Models\obj\Debug\net8.0\refint\BasaltX.Common
 C:\BasaltX.Services\Models\BasaltX.Models\obj\Debug\net8.0\BasaltX.Common.Models.pdb
 C:\BasaltX.Services\Models\BasaltX.Models\obj\Debug\net8.0\ref\BasaltX.Common.Models.dll
 C:\BasaltX.Services\Models\BasaltX.Models\obj\Debug\net8.0\BasaltX.Common.Models.csproj.AssemblyReference.cache
+C:\BasaltX.Services\Models\BasaltX.Models\obj\Debug\net8.0\BasaltX.Common.Models.sourcelink.json

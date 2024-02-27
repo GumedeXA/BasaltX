@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BasaltX.LB.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a9ce4359b562b295d29de555073b9f3df81c59c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BasaltX.LB.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BasaltX.LB.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

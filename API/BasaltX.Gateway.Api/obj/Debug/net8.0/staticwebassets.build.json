@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "taGAt1P7Bb6RTPYDR6btg9PTEcoh5wrvz4PNYLIMx98=",
+  "Source": "BasaltX.Gateway.Api",
+  "BasePath": "_content/BasaltX.Gateway.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

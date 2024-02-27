@@ -32,3 +32,4 @@ C:\BasaltX.Services\BL\BasaltX.LB.BL\obj\Debug\net8.0\BasaltX.LB.BL.AssemblyInfo
 C:\BasaltX.Services\BL\BasaltX.LB.BL\obj\Debug\net8.0\BasaltX.LB.BL.csproj.CoreCompileInputs.cache
 C:\BasaltX.Services\BL\BasaltX.LB.BL\obj\Debug\net8.0\BasaltX.LB.BL.csproj.CopyComplete
 C:\BasaltX.Services\BL\BasaltX.LB.BL\obj\Debug\net8.0\ref\BasaltX.LB.BL.dll
+C:\BasaltX.Services\BL\BasaltX.LB.BL\obj\Debug\net8.0\BasaltX.LB.BL.sourcelink.json

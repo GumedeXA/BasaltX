@@ -32,3 +32,4 @@ C:\BasaltX.Services\BL\BasaltX.AI.BL\obj\Debug\net8.0\BasaltX.AI.BL.pdb
 C:\BasaltX.Services\BL\BasaltX.AI.BL\obj\Debug\net8.0\ref\BasaltX.AI.BL.dll
 C:\BasaltX.Services\BL\BasaltX.AI.BL\bin\Debug\net8.0\BasaltX.Common.Models.dll
 C:\BasaltX.Services\BL\BasaltX.AI.BL\bin\Debug\net8.0\BasaltX.Common.Models.pdb
+C:\BasaltX.Services\BL\BasaltX.AI.BL\obj\Debug\net8.0\BasaltX.AI.BL.sourcelink.json

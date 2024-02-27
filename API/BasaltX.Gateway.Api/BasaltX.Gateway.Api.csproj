@@ -14,9 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Agents\BasalX.Service.Agents.csproj" />
-    <ProjectReference Include="..\Models\BasaltX.Models\BasaltX.Common.Models.csproj" />
-    <ProjectReference Include="..\Utils\BasalX.Utils\BasaltX.Utils.csproj" />
+    <ProjectReference Include="..\..\Agents\BasalX.Service.Agents.csproj" />
+    <ProjectReference Include="..\..\Models\BasaltX.Models\BasaltX.Common.Models.csproj" />
+    <ProjectReference Include="..\..\Utils\BasalX.Utils\BasaltX.Utils.csproj" />
   </ItemGroup>
 
 </Project>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BasaltX.AI.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a9ce4359b562b295d29de555073b9f3df81c59c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BasaltX.AI.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BasaltX.AI.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

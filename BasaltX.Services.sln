@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasaltX.Gateway.Api", "BasaltX.Services\BasaltX.Gateway.Api.csproj", "{8245513F-6403-46A0-A7D9-B20142EC3C6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasaltX.Gateway.Api", "API\BasaltX.Gateway.Api\BasaltX.Gateway.Api.csproj", "{8245513F-6403-46A0-A7D9-B20142EC3C6C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasaltX.LB.API", "API\BasaltX.LB.API\BasaltX.LB.API.csproj", "{CFF19833-A9F6-48E0-AA6B-B3D17D17411A}"
 EndProject
