@@ -1,0 +1,1 @@
+c['10']=[['11',"FindPlacesAsync Method","topic_0000000000000003.html",0],['12',"GetPlaceCurrentWeatherAsync Method","topic_0000000000000004.html",0]];

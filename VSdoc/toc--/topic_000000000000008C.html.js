@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"SOLUTION-WIDE PROPERTIES Reference","topic_0000000000000097.html"],['73',"BasalX.Service.Agents.Models.Settings Namespace","topic_000000000000008B.html"],['74',"InternalApiSettings Class","topic_000000000000008C.html"]];

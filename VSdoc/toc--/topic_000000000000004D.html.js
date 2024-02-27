@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"SOLUTION-WIDE PROPERTIES Reference","topic_0000000000000097.html"],['156',"BasaltX.Utils.Features.Rest.Orchestrator.Private.Models.Constants Namespace","topic_000000000000004C.html"],['157',"ContentNegotiationTypes Class","topic_000000000000004D.html"]];

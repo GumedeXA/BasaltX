@@ -1,0 +1,9 @@
+_s['0']=["topic_0000000000000001.html","BasaltX.Gateway.Api.RequestManager Namespace",""];
+_s['1']=["topic_0000000000000002.html","GatewayApiManager Class","Will handle all the client facing calls and service the requests\r\nto the relevant service"];
+_s['2']=["topic_0000000000000002_attached_props--.html","GatewayApiManager Attached Properties",""];
+_s['3']=["topic_0000000000000002_events--.html","GatewayApiManager Events",""];
+_s['4']=["topic_0000000000000002_methods--.html","GatewayApiManager Methods",""];
+_s['5']=["topic_0000000000000002_props--.html","GatewayApiManager Properties",""];
+_s['6']=["topic_0000000000000002_vars--.html","GatewayApiManager Fields",""];
+_s['7']=["topic_0000000000000003.html","GatewayApiManager.GetInstance Method",""];
+_s['8']=["topic_0000000000000004.html","BasaltX.Gateway.Api Reference ",""];

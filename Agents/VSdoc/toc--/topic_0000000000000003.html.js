@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"BasalX.Service.Agents Reference","topic_0000000000000043.html"],['8',"BasalX.Service.Agents.Features.AIWeather.Implementation Namespace","topic_0000000000000000.html"],['9',"TsoAgent Class","topic_0000000000000001.html"],['11',"Methods","topic_0000000000000001_methods--.html"],['12',"ProcessRequestAsync Method","topic_0000000000000003.html"]];

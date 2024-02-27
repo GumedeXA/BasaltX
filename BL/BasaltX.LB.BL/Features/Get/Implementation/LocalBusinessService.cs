@@ -28,6 +28,11 @@ internal class LocalBusinessService : ILocalBusinessService
     #endregion Constrcutor(s)
 
     #region Public Methods
+    /// <summary>
+    /// This function gets the near by locations being searched
+    /// </summary>
+    /// <param name="lbRequest"></param>
+    /// <returns></returns>
     public async Task<ResponseData> SearchNearByAsync(LocalBusinessRequest lbRequest)
     {
         var headers = new Dictionary<string, string>

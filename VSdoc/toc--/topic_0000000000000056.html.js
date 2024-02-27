@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"SOLUTION-WIDE PROPERTIES Reference","topic_0000000000000097.html"],['8',"BasalX.Service.Agents.Features.AIWeather.Implementation Namespace","topic_0000000000000054.html"],['9',"TsoAgent Class","topic_0000000000000055.html"],['10',"TsoAgent Constructor","topic_0000000000000056.html"]];

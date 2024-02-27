@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"SOLUTION-WIDE PROPERTIES Reference","topic_0000000000000097.html"],['140',"BasaltX.Models.Models.Constants Namespace","topic_000000000000002C.html"],['141',"ErrorMessages Class","topic_000000000000002D.html"],['142',"Fields","topic_000000000000002D_vars--.html"],['145',"UnknownResource Field","topic_000000000000002F.html"]];

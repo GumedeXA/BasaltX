@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"SOLUTION-WIDE PROPERTIES Reference","topic_0000000000000097.html"],['106',"BasaltX.Common.Models.Models.Constants.Enums Namespace","topic_0000000000000025.html"],['108',"ServiceType Enumeration","topic_0000000000000029.html"]];

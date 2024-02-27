@@ -9,6 +9,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHealthChecks();
 
+//Register cors logic
+builder.AddAllowedOriginsConfiguration(builder.Configuration);
+
 //Register the Movies Module to the DI Container
 builder.Services.AddLBModuleCollection();
 
@@ -27,6 +30,7 @@ app.UseSwaggerUI();
 //Query if the api is up and running
 app.MapHealthChecks("health");
 
+app.UseCors("CorsPolicy");
 //Register the Movies endpoints Module
 app.AddEndPointsConfiguration();
 

@@ -1,0 +1,1 @@
+search_result['1']=["topic_0000000000000002.html","GatewayApiManager Class","Will handle all the client facing calls and service the requests\r\nto the relevant service"];

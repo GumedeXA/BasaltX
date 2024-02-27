@@ -11,7 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHealthChecks();
-
+builder.AddAllowedOriginsConfiguration(builder.Configuration);
 
 
 //Let validate that the settings are set on the appSettings to avoid application crash
@@ -40,6 +40,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.UseCors("CorsPolicy");
 //Register the AI endpoints Module
 app.AddEndPointsConfiguration();
 

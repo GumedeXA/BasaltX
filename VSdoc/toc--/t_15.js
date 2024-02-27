@@ -1,0 +1,1 @@
+c['15']=[['16',"full_address Property","topic_0000000000000060.html",0],['17',"name Property","topic_000000000000005F.html",0],['18',"place_link Property","topic_0000000000000064.html",0],['19',"review_count Property","topic_0000000000000061.html",0],['20',"website Property","topic_0000000000000063.html",0],['21',"working_hours Property","topic_0000000000000062.html",0]];

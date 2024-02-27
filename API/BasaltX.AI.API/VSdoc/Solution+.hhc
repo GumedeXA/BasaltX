@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="VSdocman - documentation generator; https://www.helixoft.com">
+<link rel="icon" href="favicon.ico">
+<title>BasaltX.Services</title>
+
+ <link rel="stylesheet" type="text/css" href="vsdocman_overrides.css"> 
+</head>
+<BODY>
+<H1>
+BasaltX.Services
+</H1>
+
+<p>
+<a href="BasalX.Service.Agents/index.html">BasalX.Service.Agents</a>
+<p>
+<a href="BasaltX.AI.Api/index.html">BasaltX.AI.Api</a>
+<p>
+<a href="BasaltX.AI.BL/index.html">BasaltX.AI.BL</a>
+<p>
+<a href="BasaltX.Common.Models/index.html">BasaltX.Common.Models</a>
+<p>
+<a href="BasaltX.Gateway.Api/index.html">BasaltX.Gateway.Api</a>
+<p>
+<a href="BasaltX.LB.API/index.html">BasaltX.LB.API</a>
+<p>
+<a href="BasaltX.LB.BL/index.html">BasaltX.LB.BL</a>
+<p>
+<a href="BasaltX.Utils/index.html">BasaltX.Utils</a>
+
+
+</BODY>
+</HTML>

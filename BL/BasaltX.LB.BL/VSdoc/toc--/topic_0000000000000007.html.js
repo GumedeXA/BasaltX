@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"BasaltX.LB.BL Reference","topic_0000000000000009.html"],['4',"BasaltX.LB.BL Namespace","topic_0000000000000006.html"],['5',"BasaltXLocalBusinessModule Class","topic_0000000000000007.html"]];
