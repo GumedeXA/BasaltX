@@ -1,1 +1,1 @@
-search_result['55']=["topic_000000000000001A.html","LocalBusinessSummaryDetailsResponse.full_address Property",""];
+search_result['55']=["topic_0000000000000019_props--.html","LocalBusinessSummaryDetailsResponse Properties",""];

@@ -1,1 +1,1 @@
-search_result['26']=["topic_000000000000000D.html","Xml Field",""];
+search_result['26']=["topic_000000000000000B_vars--.html","ContentNegotiationTypes Fields",""];

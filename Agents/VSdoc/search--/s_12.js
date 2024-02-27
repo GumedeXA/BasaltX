@@ -1,1 +1,1 @@
-search_result['12']=["topic_0000000000000006_events--.html","LocalBusinessesDataResponse Events",""];
+search_result['12']=["topic_0000000000000006.html","LocalBusinessesDataResponse Class",""];

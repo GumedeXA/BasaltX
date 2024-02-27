@@ -1,1 +1,1 @@
-c['2']=[['4',"BasaltX.Gateway.Api.RequestManager Namespace","topic_0000000000000001.html",1]];
+c['2']=[['4',"BasaltX.Gateway.Api.Authentication Namespace","topic_0000000000000000.html",1],['9',"BasaltX.Gateway.Api.RequestManager Namespace","topic_0000000000000006.html",1]];

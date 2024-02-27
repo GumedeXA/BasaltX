@@ -1,1 +1,1 @@
-search_result['87']=["topic_000000000000002E_events--.html","WeatherResponse Events",""];
+search_result['87']=["topic_000000000000002E.html","WeatherResponse Class",""];

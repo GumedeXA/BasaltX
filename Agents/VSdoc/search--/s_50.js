@@ -1,1 +1,1 @@
-search_result['50']=["topic_0000000000000019_attached_props--.html","LocalBusinessSummaryDetailsResponse Attached Properties",""];
+search_result['50']=["topic_0000000000000018.html","Working_Hours.Monday Property",""];

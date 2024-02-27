@@ -1,1 +1,1 @@
-search_result['3']=["topic_0000000000000002_events--.html","GatewayApiManager Events",""];
+search_result['3']=["topic_0000000000000001.html","ApiKeyEndpointFilter Class","This class will handle authentication on the single gateway api endpoint\r\nTo make sure that only authorized calls a permitted"];

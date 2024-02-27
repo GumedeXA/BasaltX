@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="GENERATOR" content="VSdocman - documentation generator; https://www.helixoft.com" />
 	<link rel="icon" href="favicon.ico">
-	<title>GatewayApiManager Class</title>
+	<title>ApiKeyEndpointFilter Constructor</title>
 
 	<link rel="stylesheet" type="text/css" href="msdn2019/toc.css" />
 	<script src="msdn2019/toc.js"></script>
@@ -74,11 +74,11 @@ document.write(getCssCustomProperty('--headerTopCustomLineHtml'));
   </div>
 
 <div id="mainBody">
-		<h1 class="title">GatewayApiManager Class</h1>
+		<h1 class="title">ApiKeyEndpointFilter Constructor</h1>
         
 		<div class="metadata">
         Namespace:
-<a href="topic_0000000000000001.html">BasaltX.Gateway.Api.RequestManager</a>
+<a href="topic_0000000000000000.html">BasaltX.Gateway.Api.Authentication</a>
 
 
 
@@ -89,8 +89,6 @@ document.write(getCssCustomProperty('--headerTopCustomLineHtml'));
 
        
        
-        <summary-info>Will handle all the client facing calls and service the requests
-to the relevant service</summary-info>
 
 
 
@@ -140,7 +138,7 @@ to the relevant service</summary-info>
 				</div>
 				
 				<div class="codeSnippetCode codeVB">
-					<pre xml:space="preserve" class="brush: vb">Public Class GatewayApiManager&nbsp;<br />    Inherits <a target="_top" href=".html" onclick="this.target='';return true;">Request</a></pre>			
+					<pre xml:space="preserve" class="brush: vb">Public Sub New( _&nbsp;<br />   ByVal <i>_settings</i> As <a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.ioptions-1">IOptions</a>(Of <a target="_top" href=".html" onclick="this.target='';return true;">InternalApiSettings</a>) _&nbsp;<br />)</pre>			
 				</div>
 				<div class="codeSnippetCode codeNA">
 					<pre xml:space="preserve">This language is not supported or no code example is available.</pre>			
@@ -179,7 +177,7 @@ to the relevant service</summary-info>
 				</div>
 				
 				<div class="codeSnippetCode codeCsharp">
-					<pre xml:space="preserve" class="brush: csharp">public class GatewayApiManager : <a target="_top" href=".html" onclick="this.target='';return true;">Request</a></pre>			
+					<pre xml:space="preserve" class="brush: csharp">public ApiKeyEndpointFilter(&nbsp;<br />   <a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.ioptions-1">IOptions</a>&lt;<a target="_top" href=".html" onclick="this.target='';return true;">InternalApiSettings</a>&gt; <i>_settings</i>&nbsp;<br />)</pre>			
 				</div>
 				<div class="codeSnippetCode codeNA">
 					<pre xml:space="preserve">This language is not supported or no code example is available.</pre>			
@@ -219,7 +217,7 @@ to the relevant service</summary-info>
 				</div>
 				
 				<div class="codeSnippetCode codeCpp">
-					<pre xml:space="preserve" class="brush: cpp">public ref class GatewayApiManager : public <a target="_top" href=".html" onclick="this.target='';return true;">Request</a>^</pre>			
+					<pre xml:space="preserve" class="brush: cpp">public: &nbsp;<br />ApiKeyEndpointFilter(&nbsp;<br />   <a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.ioptions-1">IOptions</a>&lt;<a target="_top" href=".html" onclick="this.target='';return true;">InternalApiSettings</a>^&gt;^ <i>_settings</i>&nbsp;<br />) </pre>			
 				</div>
 				<div class="codeSnippetCode codeNA">
 					<pre xml:space="preserve">This language is not supported or no code example is available.</pre>			
@@ -258,7 +256,7 @@ to the relevant service</summary-info>
 				</div>
 				
 				<div class="codeSnippetCode codeJScript">
-					<pre xml:space="preserve" class="brush: js">public class GatewayApiManager&nbsp;<br />   extends <a target="_top" href=".html" onclick="this.target='';return true;">Request</a></pre>			
+					<pre xml:space="preserve" class="brush: js">JScript does not support generic types and methods.</pre>			
 				</div>
 				<div class="codeSnippetCode codeNA">
 					<pre xml:space="preserve">This language is not supported or no code example is available.</pre>			
@@ -269,6 +267,23 @@ to the relevant service</summary-info>
 	</div>
 
 
+<h4 class="subHeading">
+	Parameters</h4><dl paramName="_settings" class="parameterList">
+	<dt>
+		<span class="parameter">
+			_settings
+		</span>
+	</dt>
+	<dd>
+		<a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.ioptions-1">IOptions</a>&lt;<a target="_top" href=".html" onclick="this.target='';return true;">InternalApiSettings</a>&gt; 
+	</dd>
+</dl>
+<p>
+	 
+</p>
+
+<p />
+
 
 
 
@@ -295,62 +310,6 @@ to the relevant service</summary-info>
 
 
 
-<div class="section_container">
-	<div class="section_heading">
-		<span><a href="javascript:void(0)" title="Collapse" onclick="toggleSection(this);">Methods</a></span>
-		<div>&nbsp;</div>
-	</div>
-
-	<div id="MethodsSection" class="section">	
-  <table class="memberListTable">
-    <tr>
-      <th></th>
-      <th>
-        Name
-      </th>
-      <th>
-        Description
-      </th>
-    </tr>
-
-
-
-
-	<tr class="
-
-
-">
-	<td>
-<img alt="Public method" title="Public method" src="msdn2019/pubmethod.png"></img>
-
-	<img alt="Static" title="Static" src="msdn2019/static.png"></img>
-
-    
-	</td>
-	<td>
-	<a href="topic_0000000000000003.html">GetInstance(TsoAgent)</a>
-
-	</td>
-	<td>
-
-
-
-	</td>
-</tr>
-
-
-
-
-
-
-  </table>
-
-  <a href="#mainBody">
-    Top
-  </a>
-
-	</div>					
-</div>
 
 
 
@@ -359,43 +318,10 @@ to the relevant service</summary-info>
 
 
 
-
-
-
-
-
-  
-
-<!-- Classes -->
-
-<!-- Classes End -->
-
-<!-- Standard Modules -->
-
-<!-- Standard Modules End -->
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
 
 
 
@@ -441,7 +367,6 @@ to the relevant service</summary-info>
 	</div>					
 </div>
 
-
 <div class="section_container">
 	<div class="section_heading">
 		<span><a href="javascript:void(0)" title="Collapse" onclick="toggleSection(this);">See Also</a></span>
@@ -450,10 +375,14 @@ to the relevant service</summary-info>
 
 	<div id="seeAlsoSection" class="section">	
 		<div>
-	<a href="topic_0000000000000001.html">BasaltX.Gateway.Api.RequestManager Namespace</a><br />
+			<a href="topic_0000000000000001.html">ApiKeyEndpointFilter Class</a><br />
 
 
-	
+
+<a href="topic_0000000000000000.html">BasaltX.Gateway.Api.Authentication Namespace</a><br />
+
+
+			
 
 		</div>
 	</div>					

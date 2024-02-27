@@ -1,1 +1,1 @@
-search_result['112']=["topic_0000000000000038_events--.html","InternalApiSettings Events",""];
+search_result['112']=["topic_0000000000000038.html","InternalApiSettings Class",""];

@@ -1,1 +1,1 @@
-search_result['27']=["topic_000000000000000A_methods--.html","BusinessDetails Methods",""];
+search_result['27']=["topic_000000000000000A_attached_props--.html","BusinessDetails Attached Properties",""];

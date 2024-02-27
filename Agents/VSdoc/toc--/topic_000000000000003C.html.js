@@ -1,1 +1,1 @@
-var breadcrumbs=[['-1',"",""],['2',"BasalX.Service.Agents Reference","topic_0000000000000043.html"],['80',"BasalX.Service.Agents.ServiceManager Namespace","topic_000000000000003C.html"]];
+var breadcrumbs=[['-1',"",""],['2',"BasalX.Service.Agents Reference","topic_0000000000000044.html"],['73',"BasalX.Service.Agents.Models.Settings Namespace","topic_0000000000000037.html"],['74',"InternalApiSettings Class","topic_0000000000000038.html"],['75',"Properties","topic_0000000000000038_props--.html"],['77',"APIKey Property","topic_000000000000003C.html"]];

@@ -1,1 +1,1 @@
-search_result['47']=["topic_0000000000000017.html","Working_Hours.Sunday Property",""];
+search_result['47']=["topic_0000000000000015.html","Working_Hours.Friday Property",""];

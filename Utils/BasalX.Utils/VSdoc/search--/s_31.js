@@ -1,1 +1,1 @@
-search_result['31']=["topic_0000000000000010_events--.html","UtilitiesModule Events",""];
+search_result['31']=["topic_0000000000000010.html","UtilitiesModule Class","DI Registration of our services as a package"];

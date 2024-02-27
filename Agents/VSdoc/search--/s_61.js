@@ -1,1 +1,1 @@
-search_result['61']=["topic_0000000000000020.html","LocalBusinessSummaryDetailsResponse.working_hours Property",""];
+search_result['61']=["topic_000000000000001E.html","LocalBusinessSummaryDetailsResponse.name Property",""];

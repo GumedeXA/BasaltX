@@ -1,1 +1,1 @@
-search_result['77']=["topic_000000000000002B.html","PlacesResponseCollection Class",""];
+search_result['77']=["topic_0000000000000029.html","PlacesResponse.timezone Property",""];

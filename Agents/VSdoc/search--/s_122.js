@@ -1,1 +1,1 @@
-search_result['122']=["topic_000000000000003D_events--.html","ServiceManager Events",""];
+search_result['122']=["topic_000000000000003D.html","BasalX.Service.Agents.ServiceManager Namespace",""];

@@ -1,1 +1,1 @@
-search_result['115']=["topic_0000000000000038_vars--.html","InternalApiSettings Fields",""];
+search_result['115']=["topic_0000000000000038_methods--.html","InternalApiSettings Methods",""];

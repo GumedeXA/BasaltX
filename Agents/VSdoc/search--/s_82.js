@@ -1,1 +1,1 @@
-search_result['82']=["topic_000000000000002B_vars--.html","PlacesResponseCollection Fields",""];
+search_result['82']=["topic_000000000000002B_methods--.html","PlacesResponseCollection Methods",""];

@@ -1,1 +1,1 @@
-search_result['53']=["topic_0000000000000019_props--.html","LocalBusinessSummaryDetailsResponse Properties",""];
+search_result['53']=["topic_0000000000000019_events--.html","LocalBusinessSummaryDetailsResponse Events",""];

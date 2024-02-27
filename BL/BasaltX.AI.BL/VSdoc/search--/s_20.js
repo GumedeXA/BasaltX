@@ -1,1 +1,1 @@
-search_result['20']=["topic_000000000000000C.html","PlacesResponseData.adm_area1 Property",""];
+search_result['20']=["topic_000000000000000A.html","PlacesResponseData.name Property",""];

@@ -11,5 +11,8 @@ namespace BasalX.Service.Agents.Models.Settings
 
         [Required]
         public string? LocalBusinessEndpoint { get; init; }
+
+        [Required]
+        public string? APIKey { get; init; }
     }
 }

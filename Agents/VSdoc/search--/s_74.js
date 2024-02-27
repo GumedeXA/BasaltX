@@ -1,1 +1,1 @@
-search_result['74']=["topic_0000000000000028.html","PlacesResponse.country Property",""];
+search_result['74']=["topic_0000000000000026.html","PlacesResponse.adm_area1 Property",""];

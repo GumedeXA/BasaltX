@@ -1,1 +1,1 @@
-search_result['62']=["topic_0000000000000021.html","PlacesResponse Class",""];
+search_result['62']=["topic_000000000000001F.html","LocalBusinessSummaryDetailsResponse.current_weather Property",""];

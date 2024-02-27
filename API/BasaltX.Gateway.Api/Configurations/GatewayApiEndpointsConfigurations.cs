@@ -7,6 +7,7 @@ using BasaltX.Common.Models.Models.DTO.Response;
 using BasaltX.Common.Models.Models.Constants.Enums;
 using BasaltX.Utils.Features.Generics.Interfaces;
 using BasalX.Service.Agents.Features.AIWeather.Implementation;
+using BasaltX.Gateway.Api.Authentication;
 
 namespace BasaltX.Gateway.Api.Configurations
 {
@@ -25,7 +26,7 @@ namespace BasaltX.Gateway.Api.Configurations
                         || requestData.Action == ActionType.NotSpecified
                         || requestData.Service == ServiceType.NotSpecified)
                     {
-               
+
                         return new ResponseData { ResponsePayload = _generics.HandleGenericResponse(ErrorMessages.InvalidRequest), Status = HttpStatusCode.BadRequest };
                     }
 
@@ -35,7 +36,7 @@ namespace BasaltX.Gateway.Api.Configurations
                 {
                     return new ResponseData { ResponsePayload = _generics.HandleGenericResponse(ErrorMessages.InternalErrorOccurred), Status = HttpStatusCode.InternalServerError };
                 }
-            });
+            }).AddEndpointFilter<ApiKeyEndpointFilter>();
 
         }
     }

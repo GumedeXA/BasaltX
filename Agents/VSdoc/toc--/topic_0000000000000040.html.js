@@ -1,1 +1,1 @@
-var breadcrumbs=[['-1',"",""],['2',"BasalX.Service.Agents Reference","topic_0000000000000043.html"],['4',"BasalX.Service.Agents Namespace","topic_0000000000000040.html"]];
+var breadcrumbs=[['-1',"",""],['2',"BasalX.Service.Agents Reference","topic_0000000000000044.html"],['81',"BasalX.Service.Agents.ServiceManager Namespace","topic_000000000000003D.html"],['82',"ServiceManager Class","topic_000000000000003E.html"],['84',"Methods","topic_000000000000003E_methods--.html"],['85',"ProcessRequestAsync Method","topic_0000000000000040.html"]];

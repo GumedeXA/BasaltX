@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="GENERATOR" content="VSdocman - documentation generator; https://www.helixoft.com" />
 	<link rel="icon" href="favicon.ico">
-	<title>GatewayApiManager.GetInstance Method</title>
+	<title>ApiKeyEndpointFilter.InvokeAsync Method</title>
 
 	<link rel="stylesheet" type="text/css" href="msdn2019/toc.css" />
 	<script src="msdn2019/toc.js"></script>
@@ -74,11 +74,11 @@ document.write(getCssCustomProperty('--headerTopCustomLineHtml'));
   </div>
 
 <div id="mainBody">
-		<h1 class="title">GatewayApiManager.GetInstance Method</h1>
+		<h1 class="title">ApiKeyEndpointFilter.InvokeAsync Method</h1>
         
 		<div class="metadata">
         Namespace:
-<a href="topic_0000000000000001.html">BasaltX.Gateway.Api.RequestManager</a>
+<a href="topic_0000000000000000.html">BasaltX.Gateway.Api.Authentication</a>
 
 
 
@@ -138,7 +138,7 @@ document.write(getCssCustomProperty('--headerTopCustomLineHtml'));
 				</div>
 				
 				<div class="codeSnippetCode codeVB">
-					<pre xml:space="preserve" class="brush: vb">Public Shared Function GetInstance( _&nbsp;<br />   ByVal <i>_aiTsoAgent</i> As <a target="_top" href=".html" onclick="this.target='';return true;">TsoAgent</a> _&nbsp;<br />) As <a target="_top" href="topic_0000000000000002.html" onclick="this.target='';return true;">GatewayApiManager</a></pre>			
+					<pre xml:space="preserve" class="brush: vb">Public Function InvokeAsync( _&nbsp;<br />   ByVal <i>context</i> As <a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.http.endpointfilterinvocationcontext">EndpointFilterInvocationContext</a>, _&nbsp;<br />   ByVal <i>next</i> As <a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.http.endpointfilterdelegate">EndpointFilterDelegate</a> _&nbsp;<br />) As <a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.valuetask-1">ValueTask</a>(Of <a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/system.object">Object</a>)</pre>			
 				</div>
 				<div class="codeSnippetCode codeNA">
 					<pre xml:space="preserve">This language is not supported or no code example is available.</pre>			
@@ -177,7 +177,7 @@ document.write(getCssCustomProperty('--headerTopCustomLineHtml'));
 				</div>
 				
 				<div class="codeSnippetCode codeCsharp">
-					<pre xml:space="preserve" class="brush: csharp">public static <a target="_top" href="topic_0000000000000002.html" onclick="this.target='';return true;">GatewayApiManager</a> GetInstance(&nbsp;<br />   <a target="_top" href=".html" onclick="this.target='';return true;">TsoAgent</a> <i>_aiTsoAgent</i>&nbsp;<br />)</pre>			
+					<pre xml:space="preserve" class="brush: csharp">public <a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.valuetask-1">ValueTask</a>&lt;<a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/system.object">object</a>&gt; InvokeAsync(&nbsp;<br />   <a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.http.endpointfilterinvocationcontext">EndpointFilterInvocationContext</a> <i>context</i>,&nbsp;<br />   <a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.http.endpointfilterdelegate">EndpointFilterDelegate</a> <i>next</i>&nbsp;<br />)</pre>			
 				</div>
 				<div class="codeSnippetCode codeNA">
 					<pre xml:space="preserve">This language is not supported or no code example is available.</pre>			
@@ -217,7 +217,7 @@ document.write(getCssCustomProperty('--headerTopCustomLineHtml'));
 				</div>
 				
 				<div class="codeSnippetCode codeCpp">
-					<pre xml:space="preserve" class="brush: cpp">public: &nbsp;<br />static <a target="_top" href="topic_0000000000000002.html" onclick="this.target='';return true;">GatewayApiManager</a>^ GetInstance(&nbsp;<br />   <a target="_top" href=".html" onclick="this.target='';return true;">TsoAgent</a>^ <i>_aiTsoAgent</i>&nbsp;<br />) </pre>			
+					<pre xml:space="preserve" class="brush: cpp">public: &nbsp;<br /><a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.valuetask-1">ValueTask</a>&lt;<a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/system.object">object</a>^&gt; InvokeAsync(&nbsp;<br />   <a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.http.endpointfilterinvocationcontext">EndpointFilterInvocationContext</a>^ <i>context</i>,&nbsp;<br />   <a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.http.endpointfilterdelegate">EndpointFilterDelegate</a>^ <i>next</i>&nbsp;<br />) </pre>			
 				</div>
 				<div class="codeSnippetCode codeNA">
 					<pre xml:space="preserve">This language is not supported or no code example is available.</pre>			
@@ -256,7 +256,7 @@ document.write(getCssCustomProperty('--headerTopCustomLineHtml'));
 				</div>
 				
 				<div class="codeSnippetCode codeJScript">
-					<pre xml:space="preserve" class="brush: js">public static function GetInstance(&nbsp;<br />    <i>_aiTsoAgent</i> : <a target="_top" href=".html" onclick="this.target='';return true;">TsoAgent</a>&nbsp;<br />) : <a target="_top" href="topic_0000000000000002.html" onclick="this.target='';return true;">GatewayApiManager</a>;</pre>			
+					<pre xml:space="preserve" class="brush: js">JScript does not support generic types and methods.</pre>			
 				</div>
 				<div class="codeSnippetCode codeNA">
 					<pre xml:space="preserve">This language is not supported or no code example is available.</pre>			
@@ -268,14 +268,27 @@ document.write(getCssCustomProperty('--headerTopCustomLineHtml'));
 
 
 <h4 class="subHeading">
-	Parameters</h4><dl paramName="_aiTsoAgent" class="parameterList">
+	Parameters</h4><dl paramName="context" class="parameterList">
 	<dt>
 		<span class="parameter">
-			_aiTsoAgent
+			context
 		</span>
 	</dt>
 	<dd>
-		<a target="_top" href=".html" onclick="this.target='';return true;">TsoAgent</a> 
+		<a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.http.endpointfilterinvocationcontext">EndpointFilterInvocationContext</a> 
+	</dd>
+</dl>
+<p>
+	 
+</p>
+<dl paramName="next" class="parameterList">
+	<dt>
+		<span class="parameter">
+			next
+		</span>
+	</dt>
+	<dd>
+		<a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.http.endpointfilterdelegate">EndpointFilterDelegate</a> 
 	</dd>
 </dl>
 <p>
@@ -286,7 +299,7 @@ document.write(getCssCustomProperty('--headerTopCustomLineHtml'));
 
 	<h4 class="subHeading">
 		Return Value</h4>
-	<a target="_top" href="topic_0000000000000002.html" onclick="this.target='';return true;">GatewayApiManager</a> 
+	<a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.valuetask-1">ValueTask</a>&lt;<a target="_top" href="https://docs.microsoft.com/en-us/dotnet/api/system.object">object</a>&gt; 
 	
 
 
@@ -322,6 +335,10 @@ document.write(getCssCustomProperty('--headerTopCustomLineHtml'));
 
 
 
+ 
+ 
+ 
+ 
 
 
 
@@ -375,11 +392,11 @@ document.write(getCssCustomProperty('--headerTopCustomLineHtml'));
 
 	<div id="seeAlsoSection" class="section">	
 		<div>
-			<a href="topic_0000000000000002.html">GatewayApiManager Class</a><br />
+			<a href="topic_0000000000000001.html">ApiKeyEndpointFilter Class</a><br />
 
 
 
-<a href="topic_0000000000000001.html">BasaltX.Gateway.Api.RequestManager Namespace</a><br />
+<a href="topic_0000000000000000.html">BasaltX.Gateway.Api.Authentication Namespace</a><br />
 
 
 			

@@ -1,1 +1,1 @@
-search_result['11']=["topic_0000000000000007_events--.html","BasaltXLocalBusinessModule Events",""];
+search_result['11']=["topic_0000000000000007.html","BasaltXLocalBusinessModule Class",""];

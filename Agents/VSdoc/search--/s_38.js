@@ -1,1 +1,1 @@
-search_result['38']=["topic_0000000000000011_events--.html","Working_Hours Events",""];
+search_result['38']=["topic_0000000000000011.html","Working_Hours Class",""];

@@ -1,1 +1,1 @@
-search_result['15']=["topic_0000000000000006_vars--.html","LocalBusinessesDataResponse Fields",""];
+search_result['15']=["topic_0000000000000006_methods--.html","LocalBusinessesDataResponse Methods",""];

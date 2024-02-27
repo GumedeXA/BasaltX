@@ -1,1 +1,1 @@
-search_result['64']=["topic_0000000000000021_events--.html","PlacesResponse Events",""];
+search_result['64']=["topic_0000000000000021.html","PlacesResponse Class",""];
