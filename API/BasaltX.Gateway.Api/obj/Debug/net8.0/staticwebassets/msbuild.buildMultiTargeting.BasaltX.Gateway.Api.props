@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\BasaltX.Gateway.Api.props" />
-</Project>
