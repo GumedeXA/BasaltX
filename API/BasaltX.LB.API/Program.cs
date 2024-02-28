@@ -12,7 +12,7 @@ builder.Services.AddHealthChecks();
 //Register cors logic
 builder.AddAllowedOriginsConfiguration(builder.Configuration);
 
-//Register the Movies Module to the DI Container
+//Register the Local Business Module to the DI Container
 builder.Services.AddLBModuleCollection();
 
 //Let validate that the settings are set on the appSettings to avoid application crash
@@ -31,7 +31,7 @@ app.UseSwaggerUI();
 app.MapHealthChecks("health");
 
 app.UseCors("CorsPolicy");
-//Register the Movies endpoints Module
+//Register the Local Business endpoints Module
 app.AddEndPointsConfiguration();
 
 app.UseHttpsRedirection();
