@@ -2,11 +2,10 @@
 using System.Net;
 using Microsoft.Extensions.Logging;
 using BasaltX.Models.Models.Constants;
+using BasaltX.Common.Models.Models.DTO.Response;
 using BasaltX.Utils.Features.Generics.Interfaces;
 using BasaltX.Utils.Features.RestOrchestrator.Interface;
 using BasaltX.Utils.Features.Rest.Orchestrator.Private.Models.Constants;
-using BasaltX.Common.Models.Models.DTO.Response;
-using System.Text.Json;
 
 namespace BasaltX.Utils.Features.RestOrchestrator.Implementation;
 
@@ -19,12 +18,23 @@ internal class RestAgent : IRestAgent
 {
     #region Private Members
 
+    /// <summary>
+    /// The generics.
+    /// </summary>
     private readonly IGenerics _generics;
+    /// <summary>
+    /// The logger.
+    /// </summary>
     private readonly ILogger<RestAgent> _logger;
 
     #endregion Private Members
 
     #region Constructor(s)
+    /// <summary>
+    /// Initializes a new instance of the <see cref="RestAgent"/> class.
+    /// </summary>
+    /// <param name="_logger">The logger.</param>
+    /// <param name="_generics">The generics.</param>
     public RestAgent(ILogger<RestAgent> _logger, IGenerics _generics)
     {
         this._logger = _logger;
@@ -46,9 +56,6 @@ internal class RestAgent : IRestAgent
     public async Task<ResponseData> SendRequestAsync(string apiUrl, string path, Method methodType,
         object? payload = null, IDictionary<string, string>? extraHeaders = null, string? contentNegotiation = null)
     {
-        _ = new ResponseData();
-        ResponseData responseData;
-
         try
         {
             var restRequest = new RestRequest(path, methodType);
@@ -112,6 +119,12 @@ internal class RestAgent : IRestAgent
 
     #region Encapsulation
 
+    /// <summary>
+    /// Processes rest call.
+    /// </summary>
+    /// <param name="apiUrl">The api url.</param>
+    /// <param name="restRequest">The rest request.</param>
+    /// <returns><![CDATA[Task<ResponseData>]]></returns>
     private async Task<ResponseData> ProcessRestCall(string apiUrl, RestRequest restRequest)
     {
         var restClient = new RestClient(new RestClientOptions

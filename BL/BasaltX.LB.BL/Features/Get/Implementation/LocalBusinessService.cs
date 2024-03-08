@@ -9,16 +9,30 @@ using BasaltX.Utils.Features.RestOrchestrator.Interface;
 
 namespace BasaltX.LB.BL.Features.Get.Implementation;
 
+/// <summary>
+/// The local business service.
+/// </summary>
 internal class LocalBusinessService : ILocalBusinessService
 {
     #region Private Members
 
+    /// <summary>
+    /// The rest agent.
+    /// </summary>
     private readonly IRestAgent _restAgent;
+    /// <summary>
+    /// The rapi api settings.
+    /// </summary>
     private readonly RapidApiSettings _rapiApiSettings;
     #endregion Private Members
 
     #region Constrcutor(s)
 
+    /// <summary>
+    /// Initializes a new instance of the <see cref="LocalBusinessService"/> class.
+    /// </summary>
+    /// <param name="_restAgent">The rest agent.</param>
+    /// <param name="_rapiApiSettings">The rapi api settings.</param>
     public LocalBusinessService(IRestAgent _restAgent, IOptions<RapidApiSettings> _rapiApiSettings)
     {
         this._restAgent = _restAgent;

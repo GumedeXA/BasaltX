@@ -1,13 +1,13 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using System.Globalization;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using BasaltX.Models.Models.Settings;
 using BasaltX.AI.BL.Features.Interfaces;
 using BasaltX.Common.Models.Models.Weather;
 using BasaltX.AI.BL.Features.Models.Constants;
+using BasaltX.Common.Models.Models.DTO.Response;
 using BasaltX.Utils.Features.Generics.Interfaces;
 using BasaltX.Utils.Features.RestOrchestrator.Interface;
-using BasaltX.Common.Models.Models.DTO.Response;
-using System.Globalization;
 
 namespace BasaltX.AI.BL.Features.Implementation;
 
@@ -17,13 +17,32 @@ namespace BasaltX.AI.BL.Features.Implementation;
 internal class WeatherService : IWeatherService
 {
     #region Private Members
+    /// <summary>
+    /// The generics.
+    /// </summary>
     private readonly IGenerics _generics;
+    /// <summary>
+    /// The rest agent.
+    /// </summary>
     private readonly IRestAgent _restAgent;
+    /// <summary>
+    /// The logger.
+    /// </summary>
     private readonly ILogger<WeatherService> _logger;
+    /// <summary>
+    /// The rapi api settings.
+    /// </summary>
     private readonly RapidApiSettings _rapiApiSettings;
     #endregion Private Members
 
     #region Constructor(s)
+    /// <summary>
+    /// Initializes a new instance of the <see cref="WeatherService"/> class.
+    /// </summary>
+    /// <param name="_restAgent">The rest agent.</param>
+    /// <param name="_generics">The generics.</param>
+    /// <param name="_logger">The logger.</param>
+    /// <param name="_rapiApiSettings">The rapi api settings.</param>
     public WeatherService(IRestAgent _restAgent, IGenerics _generics,
         ILogger<WeatherService> _logger, IOptions<RapidApiSettings> _rapiApiSettings)
     {
@@ -104,6 +123,10 @@ internal class WeatherService : IWeatherService
 
     #region Encapsulation
 
+    /// <summary>
+    /// Constructs common headers.
+    /// </summary>
+    /// <returns><![CDATA[Dictionary<string, string>]]></returns>
     private Dictionary<string, string> ConstructCommonHeaders()
     {
         return new Dictionary<string, string>

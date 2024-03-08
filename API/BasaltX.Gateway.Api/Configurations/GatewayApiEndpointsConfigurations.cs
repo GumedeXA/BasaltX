@@ -11,8 +11,15 @@ using BasaltX.Gateway.Api.Authentication;
 
 namespace BasaltX.Gateway.Api.Configurations
 {
+    /// <summary>
+    /// The gateway api endpoints configurations.
+    /// </summary>
     internal static class GatewayApiEndpointsConfigurations
     {
+        /// <summary>
+        /// Add end points configuration.
+        /// </summary>
+        /// <param name="app">The app.</param>
         internal static void AddEndPointsConfiguration(this WebApplication app)
         {
             _ = app.MapPost(pattern: "api/gate-way", async ([FromBody] RequestData? requestData,
@@ -32,7 +39,7 @@ namespace BasaltX.Gateway.Api.Configurations
 
                     return await GatewayApiManager.GetInstance(_aiTsoAgent).ProcessRequestAsync(requestData).ConfigureAwait(false);
                 }
-                catch (Exception exception)
+                catch
                 {
                     return new ResponseData { ResponsePayload = _generics.HandleGenericResponse(ErrorMessages.InternalErrorOccurred), Status = HttpStatusCode.InternalServerError };
                 }

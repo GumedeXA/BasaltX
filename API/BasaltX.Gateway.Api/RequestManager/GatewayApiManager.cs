@@ -1,7 +1,7 @@
-﻿using BasaltX.Common.Models.Models.Infastructure;
+﻿using BasalX.Service.Agents.ServiceManager;
+using BasaltX.Common.Models.Models.Infastructure;
 using BasaltX.Common.Models.Models.Constants.Enums;
 using BasalX.Service.Agents.Features.AIWeather.Implementation;
-using BasalX.Service.Agents.ServiceManager;
 
 namespace BasaltX.Gateway.Api.RequestManager
 {
@@ -14,6 +14,12 @@ namespace BasaltX.Gateway.Api.RequestManager
         private static GatewayApiManager? _instance = null;
         private static readonly object _lock = new();
         private readonly TsoAgent _aiTsoAgent;
+
+        /// <summary>
+        /// Get the instance.
+        /// </summary>
+        /// <param name="_aiTsoAgent">The ai tso agent.</param>
+        /// <returns>A GatewayApiManager</returns>
         public static GatewayApiManager GetInstance(TsoAgent _aiTsoAgent)
         {
             if (_instance == null)
@@ -26,6 +32,10 @@ namespace BasaltX.Gateway.Api.RequestManager
             return _instance;
         }
 
+        /// <summary>
+        /// Prevents a default instance of the <see cref="GatewayApiManager"/> class from being created.
+        /// </summary>
+        /// <param name="aiTsoAgent">The ai tso agent.</param>
         private GatewayApiManager(TsoAgent aiTsoAgent)
         {
             _aiTsoAgent = aiTsoAgent;

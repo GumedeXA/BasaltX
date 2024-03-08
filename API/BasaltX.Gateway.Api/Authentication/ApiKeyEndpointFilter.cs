@@ -15,11 +15,21 @@ namespace BasaltX.Gateway.Api.Authentication
         private readonly InternalApiSettings _settings;
         #endregion Private Members
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ApiKeyEndpointFilter"/> class.
+        /// </summary>
+        /// <param name="_settings">The settings.</param>
         public ApiKeyEndpointFilter(IOptions<InternalApiSettings> _settings)
         {
             this._settings = _settings.Value;
         }
 
+        /// <summary>
+        /// Invokes and return a valuetask of type object? asynchronously.
+        /// </summary>
+        /// <param name="context">The context.</param>
+        /// <param name="next">The next.</param>
+        /// <returns><![CDATA[ValueTask<object?>]]></returns>
         public async ValueTask<object?> InvokeAsync(EndpointFilterInvocationContext context,
             EndpointFilterDelegate next)
         {
@@ -32,15 +42,15 @@ namespace BasaltX.Gateway.Api.Authentication
                     ResponsePayload = "Api key missing."
                 };
             }
-            if (!_settings.APIKey.Equals(extractedApiKey))
+            if (_settings.APIKey.Equals(extractedApiKey))
             {
-                return new ResponseData
-                {
-                    Status = System.Net.HttpStatusCode.Unauthorized,
-                    ResponsePayload = "Invalid Api key."
-                };
+                return await next(context);
             }
-            return await next(context);
+            return new ResponseData
+            {
+                Status = System.Net.HttpStatusCode.Unauthorized,
+                ResponsePayload = "Invalid Api key."
+            };
         }
     }
 }

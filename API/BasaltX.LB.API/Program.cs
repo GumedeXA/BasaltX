@@ -1,6 +1,7 @@
 using BasaltX.LB.BL;
 using BasaltX.LB.API.Configurations;
 using BasaltX.Models.Models.Settings;
+using BasaltX.LB.BL.Features.Caching.Implementation.Redis.Extenstions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,7 +14,7 @@ builder.Services.AddHealthChecks();
 builder.AddAllowedOriginsConfiguration(builder.Configuration);
 
 //Register the Local Business Module to the DI Container
-builder.Services.AddLBModuleCollection();
+builder.Services.AddLBModuleCollection(builder.Configuration);
 
 //Let validate that the settings are set on the appSettings to avoid application crash
 builder.Services.AddOptions<RapidApiSettings>()
@@ -35,6 +36,8 @@ app.UseCors("CorsPolicy");
 app.AddEndPointsConfiguration();
 
 app.UseHttpsRedirection();
+
+app.UseOutputCache();
 
 app.UseAuthorization();
 

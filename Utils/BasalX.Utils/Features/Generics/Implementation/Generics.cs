@@ -8,7 +8,13 @@ namespace BasaltX.Utils.Features.Generics.Implementation
     /// </summary>
     internal class Generics : IGenerics
     {
+        /// <summary>
+        /// The json serializer options.
+        /// </summary>
         private readonly JsonSerializerOptions _jsonSerializerOptions;
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Generics"/> class.
+        /// </summary>
         public Generics()
         {
             _jsonSerializerOptions = new JsonSerializerOptions

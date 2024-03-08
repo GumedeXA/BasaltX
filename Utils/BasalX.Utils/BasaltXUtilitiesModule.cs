@@ -13,6 +13,11 @@ public static class UtilitiesModule
 {
     private static bool _alreadyAdded;
 
+    /// <summary>
+    /// Add utilities module collection.
+    /// </summary>
+    /// <param name="services">The services.</param>
+    /// <returns>An IServiceCollection</returns>
     public static IServiceCollection AddUtilitiesModuleCollection(this IServiceCollection services)
     {
         if (_alreadyAdded) return services;

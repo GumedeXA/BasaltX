@@ -1,5 +1,8 @@
 ﻿namespace BasaltX.AI.Api.Configurations
 {
+    /// <summary>
+    /// The allowed origins configurations.
+    /// </summary>
     internal static class AllowedOriginsConfigurations
     {
         /// <summary>
